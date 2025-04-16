@@ -73,6 +73,10 @@ The model generates high-quality beautified portraits while preserving identity:
 
 ![Sample Results](./sample_output.png)
 
+## Limitations and Future Works
+- Current model was trained with low-resolution image due to GPU constraint. High-resolution training is important for capturing image beautification details.
+- The training data used was reletively small and noisy. High quality training data is desired: 1. more than 10,000 pairs; 2. well aligned raw/aft pairs, with no miss match and no extreme image editing (such as replacing original mouth with smiling mouth, which is not included as part of the beautification goal for this model).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
