@@ -71,13 +71,12 @@ python inference.py --input path/to/image.jpg --output path/to/output.jpg --mode
 
 The model generates high-quality beautified portraits while preserving identity:
 
-![Sample Results](path/to/sample_results.png)
+![Sample Results](./sample_output.png)
 
 ## License
 
-[Your chosen license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
 - This implementation uses Dynamic Tanh (DyT) based on the paper "Transformers without Normalization" (Zhu et al., 2025)
-- [Other acknowledgments]
